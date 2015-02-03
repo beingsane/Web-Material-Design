@@ -233,7 +233,7 @@ ul.accordion li input:checked ~ label {
 /*for desktop app*/
 @media (min-width: 1024px) {
 	#mainHead {
-		margin: 0px;
+		height: 180px;
 	}
 	.content {
 		padding: 188px 0px 0px 0px;
@@ -244,10 +244,9 @@ ul.accordion li input:checked ~ label {
 		z-index:10;
 	}
 
-	.floatButton {
-		right: 3%;
+	#viewPort .floatButton {
 		top: 150px;
-		
+		right: 3%;
 	}		
 	
 }
