@@ -1,0 +1,148 @@
+/*define size box contents*/
+.content {
+	top: 0px;
+	bottom: 0px;
+	padding: 56px 0px 0px 0px;
+}
+
+/*general styles*/
+body {
+	color: #212121;
+}
+
+a.button:active, .moreOptions a:active, .listItems a:active {
+	background-color: #00BCD4;
+	color: #FFF;
+}
+
+/*headers, footers bars and float buttons*/
+#mainHead {
+	background-color: #3F51B5;
+	color: #FFF;
+}
+
+.floatButton {
+	background-color: #00BCD4;
+}
+
+/*main menus*/
+
+#overlay {
+	background-color: black;
+	opacity: 0.2;
+}
+
+.moreOptions {
+	display:none;
+	position: absolute;
+    min-width:200px;
+	border-radius: 2px;
+	background-color: #EEEEEE;
+	z-index:150;
+	top: 8px;
+	right: 16px;
+}
+
+.moreOptions a{
+	text-decoration: none;
+	display: block;
+	font-size: 1rem;
+	height: 48px;
+	line-height: 48px;
+	vertical-align: middle;
+	color: #212121;
+	text-align: left;
+	padding: 0px 16px 0px 16px;
+
+}
+
+.moreOptions a:hover{
+
+}
+
+/*content*/
+.content {
+	background-color: #ECEFF1;
+}
+
+.content .button {
+	margin: 8px;
+}
+
+.paper {
+	background-color: #FFF;
+}
+
+.divisorTop {
+	border-top: 1px solid #CCC;
+}
+
+.divisorBottom {
+	border-bottom: 1px solid #CCC;
+}
+
+/*list styles*/
+.valueList dt {
+	color: #212121;
+}
+.valueList dd {
+	color: #727272;
+}
+
+.listItems  a {
+	color: #212121;
+}
+
+/*smartphone and tablets portrait*/
+@media (orientation:portrait) and (max-width: 1024px) {
+	#mainHead {
+		height: 56px;
+		transition: all 0.5s ease;
+	}
+	#miniDisplay  {
+		display: none;
+		opacity: 0;
+	}
+	#display {
+		transition-delay: 0.5s;
+		opacity: 1;
+	}
+	.content {
+		padding: 56px 0px 56px 0px;
+	}
+}
+
+/*smartphone and tablets landscape*/
+@media (orientation:landscape) and (max-width: 1024px) {
+
+
+	
+}
+/*for desktop app*/
+@media (min-width: 1024px) {
+	#mainHead {
+		height: 180px;
+		z-index: 0;
+		
+	}
+	.content {
+		padding: 0px 0px 16px 0px;
+		width:80%;
+		top: 56px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.floatButton , .floatButton.top , .floatButton.bottom {
+		right: 3%;
+		top: 150px;
+	}		
+
+}
+
+/*icons*/
+.iconArrowLeft {background-image: url('../img/left-100.png');}
+.iconRefresh {background-image: url('../img/sinchronize-100.png');}
+.iconShare {background-image: url('../img/share-100.png');}
+.iconCopy {background-image: url('../img/copy-100.png');}
+.iconMoreVert {background-image: url('../img/more-vert.png');}
+.iconList {background-image: url('../img/list-100.png');}

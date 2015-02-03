@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Tu IP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="css/Roboto.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/toolbars.css" />
+<link rel="stylesheet" href="css/buttons.css" />
+<link rel="stylesheet" href="css/list.css" />
+<link rel="stylesheet" href="css/theme.css" />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.transit.min.js"></script>
+<script src="js/functions.js"></script>
+<script src="phonegap.js"></script>
+<script src="js/about.js"></script>
+</head>
+<body><section id="viewPort">
+<div id="overlay"></div>
+	<section id="viewState-About" class="viewState">
+		<header id="mainHead" class="headerBox fixedTop z-depth-1">
+			<nav class="toolBar">
+			<a id="btnBack" href="#" class="button flat left iconArrowLeft" data-action="back"></a>
+			<h1 class="left title" >Todo sobre...</h1>
+			</nav>
+		</header>
+	<a id="btnReportBug" href="mailto:webserveis@gmail.com?subject=reportbug_ipstats" target="_blank" class="floatButton iconReportBug bottom right"></a>
+		<article class="content scrollable">
+		<div class="center">
+		<img id="iconApp" src="iconapp512.png" alt="logo" />
+		<span class="font-bold">Tu IP</span><br />
+		<span>1.0.0</span><br />
+		</div>
+		<h3 class="legend padding16-lr">Desarrollador</h3>
+		
+		<ul class="listItems paper">
+			<li class="itemIcon rowLines2 icon2 iconStudio"><span class="label">Estudio</span><span class="value">Webserveis</span></li>
+			<li class="itemIcon rowLines2 icon2 iconUser"><span class="label">Programador</span><span class="value">Gerard Coll</span></li>
+			<li><a href="http://www.webserveis.com" target="_blank" class="itemIcon rowLines2 icon2 iconWeb">
+				<i class="right icon2 iconExternalLink"></i>
+				<span class="label">Web</span><span class="value">www.webserveis.com</span>
+			</a></li>
+			<li><a href="mailto:webserveis@gmail.com" target="_blank" class="itemIcon rowLines2 icon2 iconEmail">
+				<i class="right icon2 iconExternalLink"></i>
+				<span class="label">Email</span><span class="value">webserveis@gmail.com</span>
+			</a></li>
+			<li><a href="https://twitter.com/webserveis" target="_blank" class="itemIcon rowLines2 icon2 iconTwitter">
+				<i class="right icon2 iconExternalLink"></i>
+				<span class="label">Twitter</span><span class="value">@webserveis</span>
+			</a></li>
+		</ul>			
+
+		<h3 class="legend padding16-lr">Redes Sociales</h3>
+		<div class="paper padding16">
+			<em>Ayuda me a crecer, compartir en las redes sociales</em>
+			<nav id="socialGroupButtons">
+				<a href="https://www.facebook.com/sharer/sharer.php?u=https://play.google.com/store/apps/details?id=app.tuip.lite" target="_blank"><img src="img/social-facebook.png" width="48" height="48" alt="facebook" /></a>
+				<a href="https://plus.google.com/share?url=https://play.google.com/store/apps/details?id=app.tuip.lite" target="_blank"><img src="img/social-googleplus.png" width="48" height="48" alt="google plus" /></a>
+				<a href="https://twitter.com/home?status=https://play.google.com/store/apps/details?id=app.tuip.lite" target="_blank"><img src="img/social-twitter.png" width="48" height="48" alt="twitter" /></a>
+				<a href="mailto:youremail@youremail.com?Subject=Tu%20IP&Body=https%3A//play.google.com/store/apps/details%3Fid%3Dapp.tuip.lite" target="_blank"><img src="img/social-email.png" width="48" height="48" alt="twitter" /></a>
+			</nav>		
+		</div>
+		
+		<h3 class="legend padding16-lr">Nueva versión</h3>
+		<div class="paper padding16">
+			<span class="font-bold">Versión 1.1 (January 2015)</span>
+			<ul id="newFeatures" class="squareList">
+				<li>Soporte Android L</li>
+				<li>Estilo Material Design</li>
+			</ul>
+			<br />
+		</div>		
+<ul id="changeLog" class="accordion">
+	<li>
+		<input type="checkbox" name="accordion" id="accordion_about"  />
+		<label for="accordion_about" class="padding16-lr">Històric</label>
+		<div class="padding16-lr paper">
+			<span class="font-bold">Versión 1.0.0</span>
+			<ul class="squareList">
+				<li>Soporte Android L</li>
+				<li>Estilo Material Design</li>
+			</ul>					
+	
+		</div>
+	</li>					
+</ul>					
+		</article>
+
+</section><!-- end viewState1 -->
+</section><!-- end viewport -->
+
+</html>

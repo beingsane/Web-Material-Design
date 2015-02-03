@@ -1,0 +1,44 @@
+.headerBox {
+    display: block;
+    width: 100%;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.toolBar {
+    display: block;
+    width: 100%;
+	min-height: 56px;
+    padding: 0px 16px 0px 16px;
+	margin: 0px;
+    z-index: 10;
+    font-size: 1.3rem;
+    font-weight: 400;
+	overflow: hidden;
+
+}
+.toolBar h1, .toolBar .button {
+	margin-top: 12px;
+}
+
+.toolBar h1.title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.fixed {
+    position: fixed;
+}
+.fixedTop {
+    position: fixed;
+    top: 0px;
+}
+
+.fixedBottom {
+    position: fixed;
+    bottom: 0px;
+}

@@ -1,0 +1,44 @@
+#mainHead, #actionBar{
+	background-color: #2196F3;
+}
+
+#mainHead {
+	height: 180px;
+}
+
+
+.contentBox {
+	background-color: #ECEFF1;
+}
+
+
+.content {
+	padding: 188px 0px 56px 0px;
+}
+
+.content .button {
+	margin: 8px;
+}
+
+.paper {
+	background-color: #FFF;
+}
+.valueList dd {
+	color: gray;
+}
+
+
+
+
+/*icons*/
+.iconMenu {
+	background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-android-l-lollipop-icon-pack/24/menu-128.png');
+}
+
+.iconOptions {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-android-l-lollipop-icon-pack/24/menu2-128.png');
+}
+
+.iconAdd {
+    background-image: url(' http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Ic_add_48px.svg/120px-Ic_add_48px.svg.png');
+}

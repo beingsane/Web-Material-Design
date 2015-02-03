@@ -1,0 +1,284 @@
+/*define size box contents*/
+.content {
+	top: 0px;
+	bottom: 0px;
+	padding: 56px 0px 0px 0px;
+}
+
+.advertBlock {
+	position: absolute;
+	z-index: 100;
+	display: block;
+	width: 100%;
+	bottom: 0px;
+	border: none;
+	background-color: rgba(34,34,34,0.7);
+	max-height: 103px;
+	margin-bottom: -3px;
+	text-align: center;
+}
+.advertBlock .flexible-banner {
+	width: 100%;
+	max-width: 480px;
+	padding: 0px;
+}
+
+.crop {
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+	height: auto;
+}
+
+
+/*general styles*/
+body {
+	color: #212121;
+}
+
+a.button:active, .moreOptions a:active,
+.listItems a:active, .listItems a:active .label, .listItems a:active .value {
+	background-color: #EEE;
+	color: #00BCD4;
+}
+a:active , ul.accordion label:active  {
+	background-color: #EEE;
+	color: #00BCD4;
+}
+
+/*headers, footers bars and float buttons*/
+#mainHead {
+	background-color: #3F51B5;
+	color: #FFF;
+	overflow: hidden;
+}
+
+.floatButton {
+	background-color: #00BCD4;
+}
+
+/*main menus*/
+
+#overlay {
+	background-color: black;
+	opacity: 0.2;
+}
+
+.moreOptions {
+	display:none;
+	position: absolute;
+    min-width:200px;
+	border-radius: 2px;
+	background-color: #EEEEEE;
+	z-index:150;
+	top: 8px;
+	right: 16px;
+}
+
+.moreOptions .row{
+	text-decoration: none;
+	display: block;
+	font-size: 1rem;
+	height: 48px;
+	line-height: 48px;
+	vertical-align: middle;
+	color: #212121;
+	text-align: left;
+	padding: 0px 16px 0px 16px;
+}
+
+.moreOptions a:hover{
+
+}
+
+.floatButton {
+	background-color: #00BCD4;
+}
+
+ul.accordion label {
+	background-image: url('../img/small-arrow-right.png');
+}
+
+ul.accordion li input:checked ~ label {
+	background-image: url('../img/small-arrow-down.png');
+}
+
+
+/*content*/
+.content {
+	padding: 188px 0px 0px 0px;
+	background-color: #ECEFF1;
+}
+
+.content .button {
+	margin: 8px;
+}
+
+.paper {
+	background-color: #FFF;
+}
+
+.divisorTop {
+	border-top: 1px solid #CCC;
+}
+
+.divisorBottom {
+	border-bottom: 1px solid #CCC;
+}
+
+/*list styles*/
+.valueList dt {
+	color: #212121;
+}
+.valueList dd {
+	color: #727272;
+}
+
+.listItems  a {
+	color: #212121;
+}
+.listItems .label {
+	color: #212121;
+}
+.listItems .value {
+	color: #727272;
+}
+
+.listItems .label {
+	color: #212121;
+	font-weight: bold;
+}
+
+/*main windows*/
+#mainHead {
+	height: 56px;
+}
+
+/*About window items*/
+#iconApp {
+	width: 96px;
+	display: block;
+	margin: 16px auto 16px auto;
+}
+#socialGroupButtons {
+	text-align: center;
+	margin: 16px 0px 16px 0px;
+}
+
+#socialGroupButtons a {
+	margin: 8px;
+}
+#socialGroupButtons a:active {
+	background-color: inherit;
+}
+
+#viewState-About .content {
+	padding-top: 56px;
+	padding-bottom: 16px;
+}
+
+#btnReportBug {
+	display: none;
+	background-color: #212121;
+}
+
+#newFeatures {
+	background-image: url('../img/corner-paper.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 33px 16px;
+	background-color: #FFFF99;
+	padding: 8px;
+	margin: 8px 0px 0px 0px;
+}
+
+#newFeatures li {
+
+}
+
+#changeLog span {
+	display: block;
+	margin: 8px 0px 8px 0px;
+}
+
+
+/*smartphone and tablets portrait*/
+@media (orientation:portrait) and (max-width: 1024px) {
+	#mainHead {
+		height: 112px;
+	}
+	
+	#viewState-About #mainHead {
+		height: 56px;
+	}
+
+	.content {
+
+	}
+}
+
+/*smartphone and tablets landscape*/
+@media (orientation:landscape) and (max-width: 1024px) {
+	#mainHead {
+		height: 56px;
+		/*overflow: hidden;*/
+	}
+	.content {
+		padding: 56px 0px 16px 0px;
+	}
+	
+}
+
+/*for desktop app*/
+@media (min-width: 1024px) {
+	#mainHead {
+		margin: 0px;
+	}
+	.content {
+		padding: 188px 0px 0px 0px;
+		width: 80%;
+		margin-top: 56px;
+		margin-left: auto;
+		margin-right: auto;
+		z-index:10;
+	}
+
+	.floatButton {
+		right: 3%;
+		top: 150px;
+		
+	}		
+	
+}
+
+
+/*icons*/
+.iconArrowLeft {background-image: url('../img/left-100.png');}
+.iconRefresh {background-image: url('../img/sinchronize-100.png');}
+.iconShare {background-image: url('../img/share-100.png');}
+.iconCopy {background-image: url('../img/copy-100.png');}
+.iconMoreVert {background-image: url('../img/more-vert.png');}
+
+.iconMenuApp {background-image: url('../img/menu-100.png');}
+
+.iconRateApp {background-image: url('../img/star-100.png');}
+.iconStudio {background-image: url('../img/biotech-100.png');}
+.iconUser {background-image: url('../img/user-100.png');}
+.iconTwitter {background-image: url('../img/twitter-100.png');}
+.iconFacebook {background-image: url('../img/facebook-100.png');}
+.iconGooglePlus {background-image: url('../img/google_plus-100.png');}
+.iconEmail {background-image: url('../img/message_outline-100.png');}
+.iconWeb {background-image: url('../img/globe-100.png');}
+
+.iconShareTwitter {background-image: url('../img/twitter-share-icon.png');}
+.iconShareFacebook {	background-image: url('../img/facebook-share-icon.png');}
+.iconShareGooglePlus {background-image: url('../img/google-plus-share-icon.png');}
+.iconReportBug {background-image: url('../img/bug-100.png');}
+
+i.iconExternalLink {
+	background-image: url('../img/external_link-100.png');
+	background-size: 12px 12px;
+}
+
+.iconList {background-image: url('../img/list-100.png');}

@@ -1,0 +1,81 @@
+*,html {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	border-radius: 0px;
+	-webkit-overflow-scrolling: touch;
+	-webkit-text-size-adjust: none;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	background: white;
+	overflow: hidden;
+}
+
+#viewPort {
+	display: block;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	overflow: hidden;
+	min-width: 320px;
+	min-height: 320px;
+	text-align: center;
+}
+
+.viewState {
+	height: 100%;
+	width: 100%;
+}
+
+.rscHidden {
+	weight: 0px;
+	height: 0px;
+	display: none;
+}
+
+.absoluteCenter {
+  width: 50%;
+  height: 50%;
+
+  margin: auto;
+  position: absolute;
+  top: 10%; left: 0; bottom: 0; right: 0;
+  text-align: center;
+}
+
+#stepTitle {
+	 display: block;
+	 color: #222;
+	 margin: atuo;
+}
+
+.button {
+	display: inline-block;
+	position: relative;
+	width: 120px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 3px;
+	font-size: 0.9em;
+	background-color: #fff;
+	color: #646464;
+	font-size: 0.9em;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+}
+.button:hover {
+	background-color: #dfdfdf;
+	color: #222;
+}
+.btnBlue {
+	background-color: #4285f4;
+	color: #FFF;
+}

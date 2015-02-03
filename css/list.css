@@ -1,0 +1,161 @@
+.valueList {
+	font-size: 0.875rem;
+	font-weight: 200;
+}
+.valueList:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.valueList dt {
+	display: block;
+	width: 50%;
+	float: left;
+	min-height: 48px;
+	font-size: 1rem;
+}
+.valueList dd {
+	display: block;
+	width: 50%;
+	float: left;
+	min-height: 48px;
+	font-size: 1rem;
+	line-height: 1.2rem;
+	padding-bottom: 8px;
+}
+
+
+.valueListVertical {
+	
+}
+.valueListVertical dt {
+	font-size: 1rem;
+	padding-bottom: 4px;
+}
+.valueListVertical dd {
+	font-size: 1rem;
+	padding-bottom: 8px;
+}
+
+.listItems {
+	font-size: 1rem;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.listItems li {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: 1.2rem;
+	min-height: 48px;
+}
+
+.listItems li:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.listItems .rowLines1 {
+	display: block;
+	padding: 14px 8px 4px 0px;
+	
+}
+
+.listItems .rowLines2 {
+	display: block;
+	padding: 6px 8px 4px 0px;
+}
+
+.listItems a {
+	display: block;
+	text-decoration: none;
+}
+.listItems a:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.listItems  .itemIcon {
+	display: block;
+	padding-left: 60px;
+	min-height: 48px;
+	background-position: 8px center;
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+}
+
+
+.listItems .itemIconx2 {
+	display: block;
+	padding-left: 60px;
+	min-height: 48px;
+	background-position: left center;
+	background-size: 48px 48px;
+	background-repeat: no-repeat;
+}
+
+.listItems h4 {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 1rem;
+
+}
+.listItems em {
+
+}
+.listItems .label {
+	display: block;
+	font-size: 0.845rem;
+}
+.listItems .value {
+	display: block;
+	font-size: 1rem;
+}
+
+
+.listItems  i {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-position: 8px center;
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+}
+
+
+/*menu options*/
+.moreOptions {
+	display:none;
+	position: absolute;
+    min-width:200px;
+	border-radius: 2px;
+	z-index:150;
+	top: 8px;
+	right: 16px;
+}
+
+.moreOptions .row{
+	text-decoration: none;
+	display: block;
+	font-size: 1rem;
+	height: 48px;
+	line-height: 48px;
+	vertical-align: middle;
+	text-align: left;
+	padding: 0px 16px 0px 16px;
+}
+
+.moreOptions a:hover{
+
+}

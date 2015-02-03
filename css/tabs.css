@@ -1,0 +1,55 @@
+.gridTabs {
+	padding: 0px;
+	height: 56px;
+	-webkit-overflow-scrolling: touch;
+	overflow: hidden;
+ }
+.gridTabs.scroll-hoz {
+overflow-x: scroll;
+    overflow-y: hidden;
+
+	white-space: nowrap;
+}
+.gridTabs > input {
+  display: none;
+}
+
+.gridTabs > label {
+  display: inline-block;
+  margin: 0; 
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
+  padding: 0px 16px 0px 16px;
+}
+
+
+.gridTabs  > label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+/* stay in theme*/
+.gridTabs > input:checked + label {
+  color: #555;
+  border-bottom: 4px solid orange;
+}
+
+.tabs-1 > label {
+	width: 100%;
+}
+.tabs-2 > label{
+	width: 50%;
+}
+.tabs-3 > label{
+	width: 33.3333333333%;
+}
+
+.tabs-4 > label{
+	width: 25%;
+}
+
